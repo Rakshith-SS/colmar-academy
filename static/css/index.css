@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	background-color: #BABDB6;
+	display: flex;
+}
+img{
+	max-width: 100%;
+}
+.heading-text{
+	margin: 200px 30px;
+	width: 25%;
+/* need to margin values later */
+}
+.banner-image{
+	margin: 32px 24px;
+	width: 60%;
+}
+.main-info {
+	margin:32px 24px;
+	width: 100%;
+}
+
+.card-section{
+	background-color: #BABDB6;
+	display: grid;
+}
+.col-img {
+	margin: 1rem;
+	width: 35%;
+}
+.col-img img {
+	width: 100%;
+}
+.col-text{
+	margin-top: 5%;
+	width: 65%;
+}
+.thesis-heading-padding h2 {
+	padding:2rem 40%;
+}
+.thesis-content {
+	margin-bottom: 32px;
+	width: 100%;
+}
+.thesis-content h3 {
+	padding: 1.5rem 0 0.5rem 0;
+}
+
+.thesis-info {
+	margin-left: 24px;
+}
+.thesis-info .row {
+	background-color: #BABDB6;
+}
+.footer-section {
+	margin: 1rem 0 0 1.5rem;
+}
+
+.footer-section .text-end {
+/* margipaddingn-left: 80%; */
+	float: right;
+	margin-right: 1.5rem;
+}
+.mobile-view{
+	display: none;
+}
+@media  (max-width: 550px){
+	.mobile-view {
+		display: inline-block;
+	}
+	li{
+		display: inline-block;
+		margin-top: 4px;
+		padding: 0px 40px 0 40px;
+	}
+
+	.container-fluid{
+		display: grid;
+	}
+	.desktop{
+		display: none;
+	}
+	.banner-image{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.banner-image img{
+		width: 100%;
+	}
+	.heading-text{
+		margin: 0;
+		margin: 1rem 0 2rem 0;
+		width: 100%;
+	}
+	.heading-text h2, p, button{
+		padding: 1rem 0;
+	}
+	.card-section{
+		background-color: white;
+	}
+	.card{
+		background-color: #BABDB6;
+	}
+	.card h5{
+		color: #262626;
+		background-color: #BABDB6;
+	}
+	.thesis-info{
+		display: none;
+	}
+	.thesis-heading-padding h2 {
+		padding:2rem 25%;
+	}
+}
